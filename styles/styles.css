@@ -19,28 +19,32 @@
 /* header style */
 header{
     background-image: url('../images/banner/banner3.png');
-    height: 800px;
+    /* height: 800px; */
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
+    padding-bottom: 120px;
+
 
 }
 
 .banner{
     text-align: right;
     /* padding: 216px 230px 166px 845px; */
-    padding-top: 216px;
-    padding-right: 230px;
+    padding-top: 150px;
+    padding-right: 150px;
+    /* padding-bottom: 116px; */
 }
 .banner-title{
     font-weight: 700;
-    font-size: 65px;
+    font-size: 55px;
     color: white;
-    padding-left: 845px;
+    padding-left: 645px;
     margin-bottom: 24px;
 }
 .banner-description{
     color: white;
-    padding-left: 880px;
+    padding-left: 800px;
     margin-bottom: 32px;
+    line-height: 25px;
     
 }
