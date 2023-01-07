@@ -11,10 +11,26 @@
     color: #005FAC;
     padding: 20px 25px;
 }
+
 .btn-primary a{
     text-decoration: none;
     color: #005FAC;
 }
+.btn-secondery{
+    background: #005FAC;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    padding: 20px 25px;
+}
+.btn-secondery a{
+    text-decoration: none;
+    color: white;
+}
+
+
 
 /* header style */
 header{
@@ -134,4 +150,93 @@ ul{
     font-weight: 700;
     color: white;
     margin-bottom: 24px;
+}
+
+/* My vision section */
+.vision{
+    display: flex;
+    background: #EBF5FB ;
+    padding: 80px 100px;
+    gap: 30px;
+    margin-bottom: 130px;
+    border-radius: 8px;
+}
+.vision-title{
+    text-align: left;
+    color: #005FAC;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.vision-description{
+    margin-bottom: 20px;
+    line-height: 25px;
+    color: #005FAC;
+}
+.my-vision{
+    padding: 0 200px;
+    
+}
+
+
+/* footer */
+/* contact section */
+.contact{
+    
+    background: #151414;
+    padding: 100px 200px;
+    
+}
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+    
+    
+}
+
+
+.contact .section-title{
+    text-align: left;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.section-subtitle{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 35px;
+    
+}
+.section-description{
+    color: white;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+input{
+    height: 64px;
+    margin-bottom: 24px;
+    
+}
+.contact input[type='email']{
+    border-radius: 8px;
+    width: 250px;
+    background: none;
+    border: 1px solid white;
+    padding: 0 22px;
+    font-size: 18px;
+    color: #F3F3F3;
+}
+
+.copyright{
+    background-color: #005FAC;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-weight: 300;
 }
